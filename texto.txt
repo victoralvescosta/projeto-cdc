@@ -1,0 +1,22 @@
+﻿CIENCIAS DA COMPUTAÇÃO
+
+
+
+
+
+
+Poquer escolhemos esse curso?
+
+
+lorem
+
+
+{aside}
+        {lista}
+  1. lídia : Introdução ao curso de Ciências da Computação, explique brevemente o que é o curso, quantos anos de duração, quais disciplinas são estudadas e qual é a grade curricular.
+2. Arthur : Mercado de trabalho, fale sobre as oportunidades de trabalho para profissionais formados em Ciências da Computação, tanto no Brasil quanto no exterior, e como está a demanda por esses profissionais.
+3. Livia : Tecnologias Emergentes, apresente as principais tecnologias emergentes como Big Data, Cloud Computing, Blockchain, Realidade Aumentada e Virtual, IoT, Indústria 4.0 e outras que os alunos irão encontrar pela frente do mercado.
+4. júnior : Futuro da profissão, explique quais são as perspectivas para a profissão a longo prazo, e como a tecnologia da informação, como um todo, deve evoluir nos próximos anos.
+5. lídia : Como se formar em ciências da computação? é necessário uma graduação? ou posso estudar só?
+        
+{aside}
