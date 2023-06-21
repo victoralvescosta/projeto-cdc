@@ -1,10 +1,46 @@
 @charset "UTF-8";
 
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:opsz,wght@6..12,700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
 
-*{
-    margin: ;
-    padding: 0;
+:root {
+    --cor0: #191A1A;
+    --cor1: #00E88F;
+    --cor3: #313335;
+
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Bebas Neue', sans-serif;
+    --fonte3: 'Nunito Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fonte1);
+}
+
+header {
+    background: black url('../imagens/pexels-luis-gomes-546819.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+
+    color: var(--cor1);
+    padding: 10vh;
+    padding-bottom: 10vh;
+    height: 150px;
+
+
+    text-align: center;
+    line-height: 2em;
+}
+
+header h1 {
+    font-family: var(--fonte2);
+    font-weight: normal;
+    font-size: clamp(2em, 1.2em + 3vw, 8em);
+    text-shadow: 1px 1px 5px black;
+    margin-top: 50px;
 }
