@@ -5,12 +5,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:opsz,wght@6..12,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
 :root {
     --cor0: #191A1A;
     --cor1: #00E88F;
     --cor3: #313335;
 
     --fonte1: Arial, Helvetica, sans-serif;
+    --fonte: 'Roboto', sans-serif;
     --fonte2: 'Bebas Neue', sans-serif;
     --fonte3: 'Nunito Sans', sans-serif;
 }
@@ -19,6 +22,11 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte1);
+}
+
+body, html {
+    background-color: var(--cor0);
+    color: white;
 }
 
 header {
@@ -40,7 +48,55 @@ header {
 header h1 {
     font-family: var(--fonte2);
     font-weight: normal;
-    font-size: clamp(2em, 1.2em + 3vw, 8em);
-    text-shadow: 1px 1px 5px black;
+    font-size: clamp(2em, 2em + 3vw, 2.8em);
+    text-shadow: 1px 1px 5px #00e88f27;
     margin-top: 50px;
+}
+
+main {
+    min-width: 280px;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 20px;
+}
+
+article h2 {
+    font-family: var(--fonte3);
+    font-size: clamp(2em, 1.2em + 3vw, 3em);
+}
+
+article p {
+    text-indent: 30px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 1.9em;
+    font-weight: normal;
+    font-family: var(--fonte);
+    font-size: 1.3em;
+}
+
+article strong {
+    color: var(--cor1);
+    text-shadow: #00e88f42;
+}
+
+aside {
+    background-color: var(--cor3);
+    padding: 10px;
+    border-radius: 5px 0px 5px 0px;
+}
+
+aside h3 {
+    font-family: var(--fonte3);
+    font-size: 2.5em;
+}
+
+aside h4 {
+    font-family: var(--fonte);
+    font-weight: normal;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    padding: 5px;
 }
